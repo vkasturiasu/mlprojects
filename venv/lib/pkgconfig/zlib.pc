@@ -1,0 +1,13 @@
+prefix=/home/pramod/mlprojects/venv
+exec_prefix=/home/pramod/mlprojects/venv
+libdir=/home/pramod/mlprojects/venv/lib
+sharedlibdir=/home/pramod/mlprojects/venv/lib
+includedir=/home/pramod/mlprojects/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
